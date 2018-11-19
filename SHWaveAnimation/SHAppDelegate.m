@@ -6,17 +6,24 @@
 //  Copyright © 2018年 石虎. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SHAppDelegate.h"
+#import "SHViewController.h"
 
-@interface AppDelegate ()
+@interface SHAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SHAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    SHViewController *sh_view = [[SHViewController alloc]init];
+    UINavigationController *sh_nav = [[UINavigationController alloc]initWithRootViewController:sh_view];
+    sh_nav.navigationBar.barTintColor = [UIColor redColor];
+    [sh_nav.navigationBar setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,nil]];
+    self.window.rootViewController = sh_nav;
+    
     return YES;
 }
 

@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48F2CBC621A2D350006A6A26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CBC521A2D350006A6A26 /* AppDelegate.m */; };
-		48F2CBC921A2D350006A6A26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CBC821A2D350006A6A26 /* ViewController.m */; };
+		48F2CBC621A2D350006A6A26 /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CBC521A2D350006A6A26 /* SHAppDelegate.m */; };
+		48F2CBC921A2D350006A6A26 /* SHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CBC821A2D350006A6A26 /* SHViewController.m */; };
 		48F2CBCC21A2D350006A6A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F2CBCA21A2D350006A6A26 /* Main.storyboard */; };
 		48F2CBCE21A2D356006A6A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F2CBCD21A2D356006A6A26 /* Assets.xcassets */; };
 		48F2CBD121A2D356006A6A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F2CBCF21A2D356006A6A26 /* LaunchScreen.storyboard */; };
 		48F2CBD421A2D356006A6A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CBD321A2D356006A6A26 /* main.m */; };
 		48F2CBDE21A2D356006A6A26 /* SHWaveAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CBDD21A2D356006A6A26 /* SHWaveAnimationTests.m */; };
 		48F2CBE921A2D356006A6A26 /* SHWaveAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CBE821A2D356006A6A26 /* SHWaveAnimationUITests.m */; };
+		48F2CC0521A2D607006A6A26 /* SHWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F2CC0321A2D607006A6A26 /* SHWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,10 @@
 
 /* Begin PBXFileReference section */
 		48F2CBC121A2D350006A6A26 /* SHWaveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHWaveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48F2CBC421A2D350006A6A26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		48F2CBC521A2D350006A6A26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48F2CBC721A2D350006A6A26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48F2CBC821A2D350006A6A26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48F2CBC421A2D350006A6A26 /* SHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
+		48F2CBC521A2D350006A6A26 /* SHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
+		48F2CBC721A2D350006A6A26 /* SHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHViewController.h; sourceTree = "<group>"; };
+		48F2CBC821A2D350006A6A26 /* SHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHViewController.m; sourceTree = "<group>"; };
 		48F2CBCB21A2D350006A6A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48F2CBCD21A2D356006A6A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F2CBD021A2D356006A6A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,8 @@
 		48F2CBE421A2D356006A6A26 /* SHWaveAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHWaveAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F2CBE821A2D356006A6A26 /* SHWaveAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWaveAnimationUITests.m; sourceTree = "<group>"; };
 		48F2CBEA21A2D356006A6A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F2CC0321A2D607006A6A26 /* SHWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWaveView.m; sourceTree = "<group>"; };
+		48F2CC0421A2D607006A6A26 /* SHWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHWaveView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,11 @@
 		48F2CBC321A2D350006A6A26 /* SHWaveAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				48F2CBC421A2D350006A6A26 /* AppDelegate.h */,
-				48F2CBC521A2D350006A6A26 /* AppDelegate.m */,
-				48F2CBC721A2D350006A6A26 /* ViewController.h */,
-				48F2CBC821A2D350006A6A26 /* ViewController.m */,
+				48F2CC0221A2D607006A6A26 /* SH_WaveAnimation */,
+				48F2CBC421A2D350006A6A26 /* SHAppDelegate.h */,
+				48F2CBC521A2D350006A6A26 /* SHAppDelegate.m */,
+				48F2CBC721A2D350006A6A26 /* SHViewController.h */,
+				48F2CBC821A2D350006A6A26 /* SHViewController.m */,
 				48F2CBCA21A2D350006A6A26 /* Main.storyboard */,
 				48F2CBCD21A2D356006A6A26 /* Assets.xcassets */,
 				48F2CBCF21A2D356006A6A26 /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				48F2CBEA21A2D356006A6A26 /* Info.plist */,
 			);
 			path = SHWaveAnimationUITests;
+			sourceTree = "<group>";
+		};
+		48F2CC0221A2D607006A6A26 /* SH_WaveAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				48F2CC0421A2D607006A6A26 /* SHWaveView.h */,
+				48F2CC0321A2D607006A6A26 /* SHWaveView.m */,
+			);
+			path = SH_WaveAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F2CBC921A2D350006A6A26 /* ViewController.m in Sources */,
+				48F2CC0521A2D607006A6A26 /* SHWaveView.m in Sources */,
+				48F2CBC921A2D350006A6A26 /* SHViewController.m in Sources */,
 				48F2CBD421A2D356006A6A26 /* main.m in Sources */,
-				48F2CBC621A2D350006A6A26 /* AppDelegate.m in Sources */,
+				48F2CBC621A2D350006A6A26 /* SHAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
